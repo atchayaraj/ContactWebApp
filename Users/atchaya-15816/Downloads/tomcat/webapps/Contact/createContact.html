@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Display Page</title>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<style>
+		#span2{
+			padding-left: 92px;
+		}
+		.span{
+			line-height: 1.5cm;
+		}
+		#div3{
+			padding-top: 40px;
+			padding-left: 40px;
+		}
+		.input{
+            line-height: 30px;
+            width: 300px;
+            height: 50px;
+            border: solid;
+            border-width: 0.0001px;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-size: 1.1rem;
+            background-color: whitesmoke;
+		}
+		#image{
+			border: .1pxsolid;
+			border-radius: 20px;
+			width: 100px;
+			height: 100px;
+		}
+		.span3{
+			padding-left: 97px;
+		}
+		#label{
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body id="body">
+	<script>
+		function formValidation(){
+			var firstname = document.myForm.fname.value;
+			var lastname = document.myForm.lname.value;
+			var phonenumber = document.myForm.number.value;
+			if(firstname == null){
+				alert("hello");
+				false
+			}
+}
+	</script>
+	<div id="div">
+		<div id = "div1">
+			<span id="span1" class="span">Create Contact</span>
+			<span id ="span2" class="span"><button type="button" class="button" onClick="return formValidation()">Save</button></span>
+		</div>
+		<div id="div3">
+			<form id="form" name="myForm" method="POST">
+				<span class="span3"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image"><span>
+				<div style="padding-left: 120px;">
+					<label for="file" id="label" class="cursor">Upload</label>
+				</div>
+				<input type="file" style="visibility: hidden;" name="image" accept="image/*" class="span3" id="file"></input></br>
+				<input type="text" name="fname" placeholder="First name" class="input"></input></br></br>
+				<input type="text" name="lname" placeholder="Last name" class="input"></input></br></br>
+				<input type="tel" name="number" placeholder="Phone number" class="input" pattern="[0-9]{9}[0-9]{1}"></input>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

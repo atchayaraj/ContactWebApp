@@ -1,0 +1,90 @@
+#body{
+		background-color: lightgrey;
+		width: 10cm;
+		height: 10cm;
+		padding-top: 120px;
+		padding-left: 540px;
+	}
+#div{
+	border: .5px groove;
+	border-radius: 15px;
+	width: 10cm;
+	height: 13cm;
+	background-color: whitesmoke;
+	}
+.border{
+	border: 0px solid;
+}
+.cursor{
+	cursor: pointer;
+}
+#div1{
+	border:solid; 
+	border-bottom-width: 0.5px; 
+	border-color: lightgrey; 
+	border-top-width: 0px; 
+	border-right-width: 0px; 
+	border-left-width: 0px;
+    }
+span{
+	color: black; 
+	font-size: 25px;
+	font-style: normal;
+	}
+.button{
+	background-color:floralwhite;
+	width: 70px;
+	height: 25px;
+	border: solid;
+	border-radius: 10px;
+	cursor: pointer;
+	}
+#span1{
+	padding-left: 20px;
+	font-weight: 700;
+    }
+.button:hover{
+	background-color: lightgrey;
+}
+/*			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>
+			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>
+			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>
+			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>
+			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>
+			<li id="li" class="cursor">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" id="image">
+				<div id="div2">
+					<span style="font-size: 18px;" id="span3">Atchayaraj</span>
+					<span style="font-size: 14px; font-weight: 300; line-height: 0.5cm; padding-left: 15px;">8754082273</span>
+				</div>
+			</li>*/
